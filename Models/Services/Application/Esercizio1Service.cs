@@ -1,14 +1,18 @@
 using System;
+using Esercizio1.Models.Services.Application;
 using Esercizio1.Models.ViewModels;
 
-namespace Esercizio1.Models.Services.Application{
-    public class Esercizio1Service
+namespace esercizio1.Models.Services.Application{
+    public class Esercizio1Service:IEsercizio1Service
     {
-        public List<Esercizio1ViewModel> getServices()
+        public List<Esercizio1ViewModel> getTuple()
         {
             var tupleList=new List<Esercizio1ViewModel>();
-            var rand=new Random();
-        
+           
+           
+           
+           
+           //Object Initializer with property
                 var tupla1=new Esercizio1ViewModel{
                     Project="Mars Rover",
                     

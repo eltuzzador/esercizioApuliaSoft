@@ -8,7 +8,9 @@
 
 
 //app.UseMvcWithDefaultRoute();
-namespace esercizio1{
+using esercizio1;
+
+namespace Esercizio1{
 public class Program
 {
     public static void Main(string[] args)
