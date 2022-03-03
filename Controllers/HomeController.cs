@@ -5,7 +5,7 @@ namespace esercizio1.Controllers{
 
 public class HomeController:Controller{
     public IActionResult Index(){
-        return Content("SOno la index della home");
+        return View("Views/Home/Index.cshtml");
     }
 }
 }

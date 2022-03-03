@@ -16298,6 +16298,21 @@
   "RootNamespace": "esercizio1",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\spide\\Documents\\csharp\\esercizio1\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\spide\\Documents\\csharp\\esercizio1\\Views\\esercizio1\\Index.cshtml",
+      "TargetPath": "Views\\esercizio1\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\spide\\Documents\\csharp\\esercizio1\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\spide\\Documents\\csharp\\esercizio1\\Views\\esercizio1\\Detail.cshtml",
       "TargetPath": "Views\\esercizio1\\Detail.cshtml",
       "FileKind": "mvc"
