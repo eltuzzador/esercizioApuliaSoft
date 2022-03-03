@@ -1,9 +1,41 @@
+
+@using System.Collections.Generic
+@using Esercizio1.Models.ViewModels
+@model List<Esercizio1ViewModel>
+<h1>HOME</h1>
+
 @{
     Layout="_Layout"; //indico il layout condiviso tra le view per non replicare codice
 
 }
 
- <p>sono la view dell'action index dell'home controller</p>
+
+
+<table border="1">
+  <tr >
+    <td>Project</td>
+    <td>Employee</td>
+    <td>Date</td>
+    <td>Hours</td>
+  </tr>
   
+  
+
+
+@if(Model!=null){
+@foreach(Esercizio1ViewModel tupla in Model)
+{
+
+
+<tr>
+    <td>@tupla.Project</td>
+    <td>@tupla.Employee</td>
+    <td>@tupla.Date</td>
+    <td>@tupla.Hours</td>
+  </tr>
+ 
+}
+}
+  </table>
 
 

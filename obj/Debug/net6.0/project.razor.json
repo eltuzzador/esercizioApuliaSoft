@@ -16298,6 +16298,11 @@
   "RootNamespace": "esercizio1",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\spide\\Documents\\csharp\\esercizio1\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\spide\\Documents\\csharp\\esercizio1\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
