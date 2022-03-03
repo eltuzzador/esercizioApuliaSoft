@@ -2,8 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 using Esercizio1.Models.Services.Application;
-using System.Collections.Generic;
-using Esercizio1.Models.ViewModels;
+
 namespace esercizio1.Controllers
 {
 
