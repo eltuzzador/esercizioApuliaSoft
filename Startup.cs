@@ -18,7 +18,11 @@ public class Startup
 
         //con Esercizio1Service posso istanziare dato che sto trattando una
     services.AddTransient<IEsercizio1Service,Esercizio1Service>();//nel caso in cui ci sia un componente che ha una dipendenza da questa interfaccia costruirò un Esercizio1Service
-    
+    /*
+    AddTransient ASP.NET Core crea una nuova istanza del servizio ogni volta che un componente ne ha bisogno, e poi la distrugge dopo che è stata usata. si usa con servizi veloci da costruire
+    AddScoped crea una nuova istanza e la riutilizza finchè siamo nel contesto della stessa richiesta HTTP, al termine si distrugge. Il servizio è costoso da costruire
+    AddSingleton ASP:NET Core crea un'istanza e la inietta in tutti i componenti che ne hanno bisogno, anche in richieste HTTP diverse e concorrenti. Viene poi riutilizzata la stessa senza che sia distrutta e poi ricreata
+    */
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

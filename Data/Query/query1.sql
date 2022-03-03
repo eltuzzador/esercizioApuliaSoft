@@ -1,0 +1,6 @@
+-- SQLite
+CREATE TABLE Employee(
+Nome TEXT(10) NOT NULL,
+PRIMARY KEY(Nome)
+
+);
