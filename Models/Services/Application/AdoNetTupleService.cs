@@ -12,8 +12,8 @@ namespace Esercizio1.Models.Services.Application{
         {
             this.db = db;
         }
-        public List<Esercizio1ViewModel> getTuple()
-        {string q="SELECT ID_Project, ID_Employee, Data, Ore FROM SvoltoDa";
+        public List<Esercizio1ViewModel> getTuple(string q)
+        {
         DataSet dataSet=db.Query(q);
         var dataTable=dataSet.Tables[0];
         var tuplaList=new List<Esercizio1ViewModel>();
@@ -23,5 +23,7 @@ tuplaList.Add(tupla);
         }
             return tuplaList;
         }
+        
+
     }
 }

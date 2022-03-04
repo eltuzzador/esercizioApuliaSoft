@@ -2,7 +2,7 @@
 @using System.Collections.Generic
 @using Esercizio1.Models.ViewModels
 @model List<Esercizio1ViewModel>
-<h1>GROUP BY PROJECT</h1>
+<h1>GROUP BY PROJECT - EMPLOYEE</h1>
 @{
     Layout="_Layout"; //indico il layout condiviso tra le view per non replicare codice
 
@@ -11,7 +11,7 @@
 <table border="1">
   <tr >
     <td>Project</td>
-
+<td>Employee</td>
     
     <td>Hours</td>
   </tr>
@@ -26,6 +26,7 @@
 
 <tr>
     <td>@tupla.Project</td>
+     <td>@tupla.Employee</td>
     <td>@tupla.Hours</td>
   </tr>
  

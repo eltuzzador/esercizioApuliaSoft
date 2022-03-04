@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Esercizio1.Models.ViewModels;
 using Esercizio1.Models.Services.Application;
-using esercizio1.Models.Services.Application;
+//using esercizio1.Models.Services.Application;
 namespace esercizio1.Controllers
 {
 
@@ -22,7 +22,7 @@ namespace esercizio1.Controllers
         
             // var esercizio1Service=new Esercizio1Service();//i dati vanno presi da un database
             //List<Esercizio1ViewModel> data= esercizio1Service.GetServices();
-            List<Esercizio1ViewModel> data = esercizio1Service.getTuple(); //elenco di tutti i dati disponibili
+            List<Esercizio1ViewModel> data = esercizio1Service.getTuple("SELECT ID_Project, ID_Employee, Data, Ore FROM SvoltoDa"); //elenco di tutti i dati disponibili
             return View(data);
 
             //return View();  //asp.net core mvc cercherà una view che segue le convenzioni. Che si chiama index.cshtml contenuta all'interno di views/esercizio1

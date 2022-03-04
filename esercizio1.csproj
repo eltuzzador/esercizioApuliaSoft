@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-  <Compile Remove="Model/Services/Application/Esercizio1Service.cs"/>
+ 
     
     
     <PackageReference Include="Microsoft.Data.SQLite" Version="6.0.2" />

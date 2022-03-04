@@ -1,9 +1,9 @@
-using System;
+/*using System;
 using Esercizio1.Models.Services.Application;
 using Esercizio1.Models.ViewModels;
 
 namespace esercizio1.Models.Services.Application{
-    public class Esercizio1Service:IEsercizio1Service
+    public class Esercizio1Service
     {
         public List<Esercizio1ViewModel> getTuple()
         {
@@ -69,4 +69,4 @@ return tupleList;
         }
     }
 
-}
+}*/

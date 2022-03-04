@@ -5,6 +5,6 @@ VALUES
 ('31 Aug 2021', 3, 'Manhattan', 'Giovanni'),
 ('01 Sep 2021', 3, 'Mars Rover', 'Mario'),
 ('01 Sep 2021', 3, 'Mars Rover', 'Lucia'),
-('27 Aug 2021', 3, 'Manhattan', 'Mario'),
-('01 Sep 2021', 3, 'Manhattan', 'Giovanni');
+('27 Aug 2021', 2, 'Manhattan', 'Mario'),
+('01 Sep 2021', 4, 'Manhattan', 'Giovanni');
 
