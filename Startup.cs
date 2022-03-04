@@ -1,6 +1,7 @@
 
 using esercizio1.Models.Services.Application;
 using Esercizio1.Models.Services.Application;
+using Esercizio1.Models.Services.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 namespace esercizio1{
 public class Startup
@@ -17,7 +18,8 @@ public class Startup
         //services.AddMvc(); //aggiungo i servizi necessari al funzionamento di Mvc
 
         //con Esercizio1Service posso istanziare dato che sto trattando una
-    services.AddTransient<IEsercizio1Service,Esercizio1Service>();//nel caso in cui ci sia un componente che ha una dipendenza da questa interfaccia costruirò un Esercizio1Service
+    services.AddTransient<IEsercizio1Service,AdoNetTupleService>();//nel caso in cui ci sia un componente che ha una dipendenza da questa interfaccia costruirò un AdoNetTupleService
+    services.AddTransient<IDatabaseAccessor, SqLiteDabaseAccessor>();//aggiungo il servizio infrastrutturale che si dovrà interfafcciare con il database
     /*
     AddTransient ASP.NET Core crea una nuova istanza del servizio ogni volta che un componente ne ha bisogno, e poi la distrugge dopo che è stata usata. si usa con servizi veloci da costruire
     AddScoped crea una nuova istanza e la riutilizza finchè siamo nel contesto della stessa richiesta HTTP, al termine si distrugge. Il servizio è costoso da costruire

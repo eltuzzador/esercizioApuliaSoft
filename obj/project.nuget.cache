@@ -1,43 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "HQkqw2y0YzZjkIaghBWmUT1+kFtQozMGXaTMeNxzeDwjb9PrkBrRYNXt05Zo+ZuDrYDnRIt7lAJ2I1Ve9qz+kQ==",
+  "dgSpecHash": "iBOsSRdhVt0pznL6y5f9aVG7K1hZayJ4ivqxb5SCW1jS4ucdKxNTfv6OkQHZky+m/KQM0O7kOvcB0dw5rttqjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\spide\\Documents\\csharp\\esercizio1\\esercizio1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\spide\\.nuget\\packages\\microsoft.owin\\4.1.1\\microsoft.owin.4.1.1.nupkg.sha512",
-    "C:\\Users\\spide\\.nuget\\packages\\microsoft.owin.host.systemweb\\4.1.1\\microsoft.owin.host.systemweb.4.1.1.nupkg.sha512",
-    "C:\\Users\\spide\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512"
+    "C:\\Users\\spide\\.nuget\\packages\\microsoft.data.sqlite\\6.0.2\\microsoft.data.sqlite.6.0.2.nupkg.sha512",
+    "C:\\Users\\spide\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
+    "C:\\Users\\spide\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\spide\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\spide\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\spide\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\spide\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Il pacchetto 'Microsoft.Owin 4.1.1' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto 'net6.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
-      "libraryId": "Microsoft.Owin",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Il pacchetto 'Microsoft.Owin.Host.SystemWeb 4.1.1' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto 'net6.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
-      "libraryId": "Microsoft.Owin.Host.SystemWeb",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Il pacchetto 'Owin 1.0.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto 'net6.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
-      "libraryId": "Owin",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

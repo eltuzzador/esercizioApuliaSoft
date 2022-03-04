@@ -40,9 +40,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Owin.Host.SystemWeb": {
+            "Microsoft.Data.SQLite": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [

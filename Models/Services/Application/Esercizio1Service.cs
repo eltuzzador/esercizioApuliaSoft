@@ -8,9 +8,7 @@ namespace esercizio1.Models.Services.Application{
         public List<Esercizio1ViewModel> getTuple()
         {
             var tupleList=new List<Esercizio1ViewModel>();
-           
-           
-           
+            
            
            //Object Initializer with property
                 var tupla1=new Esercizio1ViewModel{
