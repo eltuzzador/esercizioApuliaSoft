@@ -1,1 +1,2 @@
 -- SQLite
+DROP TABLE SvoltoDa
